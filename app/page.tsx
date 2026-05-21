@@ -14,7 +14,7 @@ export default function DashboardEmbed() {
           <div className="flex flex-col items-center gap-3">
             <div className="w-10 h-10 border-4 border-white/30 border-t-white rounded-full animate-spin"></div>
             <span className="text-white text-sm opacity-80">
-              Cargando sistema clínico...
+              Cargando Sistema de Facturación - FACTUDEV...
             </span>
           </div>
         </div>
@@ -22,7 +22,7 @@ export default function DashboardEmbed() {
 
       {/* IFRAME FULL APP */}
       <iframe
-        src=" https://script.google.com/macros/s/AKfycbzkHTsyBR9lIB80QEpnuKsWGX87aNPQIM5PjBS3DqqCaUadQuB-324WcgRBjTy2lwU7/exec "
+        src="https://script.google.com/macros/s/AKfycbyTddPubn8HzX5Y0jNOSXjfGKDaVEepEKLFMof17ji7i4ymqyPCp3I9d1PX-bE_qPFaSQ/exec "
         className="w-full h-full border-0"
         style={{
           position: 'fixed',
